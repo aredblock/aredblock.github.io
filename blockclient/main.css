@@ -1,0 +1,86 @@
+ul {
+    list-style-type: none;
+    
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1B1F23;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px 8px;
+    text-decoration: none;
+  }
+  li a img{
+    margin-left: 50px;
+    width: 64px;
+    height: 64px;
+  }
+  li a h2{
+    font-family: sans-serif;
+  }
+  .icon{
+      height: 150px;
+  }
+  .dark-mode {
+    background-color: black;
+    color: #FFC9C9C9;
+  }
+  .sans{
+      font-family:  sans-serif
+  }
+  .ModeButton{
+      background-color: white;
+      height: 50px;
+      width: 50px;
+      margin-top: 5px;
+  }
+  .placeholder{
+      margin-left: 1500px;
+  }
+  .page{
+      background-color: #1B1F23;
+      margin-top: 140px;
+      height: 500px;
+  }
+  .ub{
+      font-family: sans-serif;
+      color: white;
+      text-align: center;
+      margin: 50px;
+  }
+  body{
+      background-color: black;
+  }
+  .footer{
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     height: 50px;
+     background-color: 1B1F23;
+     color: white;
+     text-align: right;
+     font-family: sans-serif;
+}
+.btn {
+    background-color: rgb(255, 30, 30);
+    margin-top: 50;
+    margin: 10px;
+    border: none;
+    color: white;
+    padding: 12px 12px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: rgb(225, 65, 65);
+  }
