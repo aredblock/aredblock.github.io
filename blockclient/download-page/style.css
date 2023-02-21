@@ -1,0 +1,117 @@
+body{
+    background-color: #24292F;
+}
+nav{
+    height: 95px;
+    width: 100%;
+    background-color: #1a1e22;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.144);
+    position: relative;
+}
+nav ul{
+    float: right;
+}
+nav ul li{
+    float: left;
+    list-style: none;
+    position: relative;
+}
+nav ul li a{
+    font-family: sans-serif;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    margin-right: 28px;
+    margin-top: 18px;
+    display: block;
+}
+nav ul li ul{
+    display: none;
+    position: absolute;
+}
+nav ul li:hover ul{
+    display: block;
+}
+nav ul li ul li a{
+    color: white;
+    font-size: 18px;
+    padding: 10px 0px;
+}
+nav img{
+    height: 45px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0%,-50%); 
+    margin-left: 20px;
+}
+.dropdown:hover{
+    cursor: pointer;
+}
+* {
+  font-family: 'Open Sans', 'sans-serif';
+}
+
+html, body {
+  overflow: hidden;
+}
+
+ul {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+li {
+  display: inline-block;
+  margin: 10px;
+}
+
+.download {
+  width: 200px;
+  height: 75px;
+  background: black;
+  float: left;
+  border-radius: 5px;
+  position: relative;
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid #fff;
+}
+
+.download > .fa {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+}
+
+.df,
+.dfn {
+  position: absolute;
+  left: 70px;
+}
+
+.df {
+  top: 20px;
+  font-size: .68em;
+}
+
+.dfn {
+  top: 33px;
+  font-size: 1.08em;
+}
+
+.download:hover {
+  background-color: white;
+  color: black;
+}
+.img{
+    height: 45px;
+    margin-right: 130px;
+    margin-top: 13px;
+}
