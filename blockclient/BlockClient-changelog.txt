@@ -1,0 +1,11 @@
+Changelog:
+
+0.2:
+	-Hud-Editor
+	-New ModGui
+	-Zoom Mod
+	-Keystrokes Mod
+
+0.3:
+	-Costume MainGui
+	-Youtuber integrated verification(ni)
