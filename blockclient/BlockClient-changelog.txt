@@ -9,3 +9,7 @@ Changelog:
 0.3:
 	-Costume MainGui
 	-Youtuber integrated verification(ni)
+	
+0.4:
+	-New ModsGui!
+	-(Geheim) First cosmetic(alpha!) (Funktion mit '/code cos23')
